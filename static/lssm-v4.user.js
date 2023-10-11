@@ -4,11 +4,11 @@
 // @author       The LSSM-Team: Sanni, Jan (jxn_30), Ron31, Crazycake
 // @description  LSSM V4 is a Script-Collection for Leitstellenspiel, Missionchief, Meldkamerspel and its other language versions.
 // @namespace    https://lss-manager.de/
-// @homepage     https://docs.lss-manager.de/
-// @downloadURL  https://v4.lss-manager.de/lssm-v4.user.js
-// @updateURL    https://v4.lss-manager.de/lssm-v4.user.js
-// @supportURL   https://docs.lss-manager.de/en_US/error_report
-// @icon         https://docs.lss-manager.de/img/lssm.png
+// @homepage     http://localhost:36551/docs/
+// @downloadURL  http://localhost:36551/lssm-v4.user.js
+// @updateURL    http://localhost:36551/lssm-v4.user.js
+// @supportURL   http://localhost:36551/docs/en_US/error_report
+// @icon         http://localhost:36551/docs/img/lssm.png
 // @match        https://www.operacni-stredisko.cz/*
 // @match        https://policie.operacni-stredisko.cz/*
 // @match        https://www.alarmcentral-spil.dk/*
@@ -52,4 +52,4 @@
 // @grant        unsafeWindow
 // ==/UserScript==
 /* global I18n, user_id */
-const e=()=>{const e=document.createElement("script");e.src=`https://v4.lss-manager.de/core.js?_=${Math.floor(Date.now()/6e5)}&branch=${localStorage.getItem("lssmv4_branch")??"stable"}`;e.setAttribute("type","module");e.setAttribute("async","");unsafeWindow["lssmv4-GM_Info"]=JSON.parse(JSON.stringify(GM_info));document.body.append(e)};if((!window.frameElement||window.frameElement?.src.startsWith("https"))&&!window.location.pathname.match(/^\/users\//u)&&"undefined"!=typeof user_id&&"undefined"!=typeof I18n)if(window!==window.parent&&window.parent.hasOwnProperty("lssmv4-redesign-lightbox")){const t="lssmv4-redesign-iframe-trigger-lssm-load";window.parent.addEventListener(t,e);window.addEventListener("pagehide",(()=>window.parent.removeEventListener(t,e)));window.parent["lssmv4-redesign-lightbox"].src=new URL(window.location.href).toString()}else e();
+const e=()=>{const e=document.createElement("script");e.src=`http://localhost:36551/core.js?_=${Math.floor(Date.now()/6e5)}&branch=${localStorage.getItem("lssmv4_branch")??"stable"}`;e.setAttribute("type","module");e.setAttribute("async","");unsafeWindow["lssmv4-GM_Info"]=JSON.parse(JSON.stringify(GM_info));document.body.append(e)};if((!window.frameElement||window.frameElement?.src.startsWith("https"))&&!window.location.pathname.match(/^\/users\//u)&&"undefined"!=typeof user_id&&"undefined"!=typeof I18n)if(window!==window.parent&&window.parent.hasOwnProperty("lssmv4-redesign-lightbox")){const t="lssmv4-redesign-iframe-trigger-lssm-load";window.parent.addEventListener(t,e);window.addEventListener("pagehide",(()=>window.parent.removeEventListener(t,e)));window.parent["lssmv4-redesign-lightbox"].src=new URL(window.location.href).toString()}else e();
