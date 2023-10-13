@@ -62,7 +62,7 @@
     "@types/node": {
         "icon": "https://avatars.githubusercontent.com/u/3637556",
         "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node",
-        "version": "18.18.4"
+        "version": "18.18.5"
     },
     "@types/pdfmake": {
         "icon": "https://avatars.githubusercontent.com/u/3637556",
@@ -188,7 +188,7 @@
     "eslint": {
         "icon": "https://eslint.org/icon-512.png",
         "url": "https://eslint.org",
-        "version": "8.50.0"
+        "version": "8.51.0"
     },
     "eslint-config-prettier": {
         "icon": "https://prettier.io/icon.png",
@@ -215,7 +215,7 @@
     "eslint-plugin-prettier": {
         "icon": "https://prettier.io/icon.png",
         "url": "https://github.com/prettier/eslint-plugin-prettier#readme",
-        "version": "5.0.0"
+        "version": "5.0.1"
     },
     "eslint-plugin-regexp": {
         "url": "https://github.com/ota-meshi/eslint-plugin-regexp#readme",
@@ -309,7 +309,7 @@
     "sass": {
         "icon": "https://sass-lang.com/assets/img/logos/logo.svg",
         "url": "https://github.com/sass/dart-sass",
-        "version": "1.69.2"
+        "version": "1.69.3"
     },
     "sass-loader": {
         "icon": "https://webpack.js.org/assets/icon-square-big.svg",
